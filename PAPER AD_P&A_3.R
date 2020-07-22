@@ -12,7 +12,7 @@ library(rJava)
 library(DBI)
 library(RJDBC)
 jdbcDriver<-JDBC(driverClass="oracle.jdbc.OracleDriver",classPath = "C://ORAWIN95/ODBC/ojdbc14.jar")
-CONNECT<-dbConnect(jdbcDriver,"jdbc:oracle:thin:@//203.249.128.136:1521/AP1.WORLD","V_ACNAD","VACNAD")
+CONNECT<-dbConnect(jdbcDriver,"jdbc:oracle:thin:@//000.000.000.000:0000/000","id","password")
 
 
 # GETTING DATA from ORACLE 
